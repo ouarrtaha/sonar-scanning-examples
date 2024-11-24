@@ -16,6 +16,7 @@ function processOrders(orders) {
   return "Orders processed successfully";
 }*/
 
+/*
 function processOrders(orders) {
   if (!orders || orders.length === 0) {
     return "No orders to process";
@@ -35,6 +36,7 @@ function processOrders(orders) {
 
   return "Orders processed successfully";
 }
+*/
 
 
 
