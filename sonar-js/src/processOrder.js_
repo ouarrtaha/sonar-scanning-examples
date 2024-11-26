@@ -1,10 +1,24 @@
-/*function processOrders(orders) {
+
+
+function processOrders(orders) {
+  if (orders.status === "pending") {
+    console.log("Pending order:", orders.id);
+  } else if (orders.status === "processing") {
+    console.log("Processing order:", orders.id);
+  } else {
+    console.log("Unknown order:", orders.id);
+  }
+}
+
+
+function processOrders(orders) {
   if (!orders || orders.length === 0) {
     return "No orders to process";
   }
 
   return "Orders processed successfully";
 }
+
 
 function processOrders(orders) {
   for (let i = 0; i < orders.length; i++) {
@@ -14,7 +28,7 @@ function processOrders(orders) {
   }
 
   return "Orders processed successfully";
-}*/
+}
 
 /*
 function processOrders(orders) {
