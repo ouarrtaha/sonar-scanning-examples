@@ -41,7 +41,7 @@ maven:latest mvn clean verify
 docker run \
 --rm \
 -e SONAR_HOST_URL="http://sonar:9000" \
--e SONAR_TOKEN="sqa_580cc3dae49884cc154c00cd13c78e6a19133033" \
+-e SONAR_TOKEN="TOKEN" \
 --network sonar \
 -v "$(pwd):/usr/src/mymaven" \
 -w /usr/src/mymaven \
